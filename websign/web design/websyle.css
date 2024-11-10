@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FFE3E0;
+    margin: 0px;
+}
+
+header {
+    background-color: #F38375;
+    color: white;
+    text-align: center;
+    border: 0px;
+    padding: 20px;
+}
+
+.photo {
+    width: 300px;         /* 調整寬度 */
+    height: 300px;        /* 調整高度 */
+    border-radius: 50%;   /* 讓圖片成為圓形 */
+    object-fit: cover;    /* 讓圖片等比例裁剪並填滿框架 */
+    border: 2px solid #755d44; /* 添加邊框，使圖片更美觀 */
+}
+
+
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    color: #3e3e3e;
+}
+
+.info p {
+    margin-top: 5px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.programming-skills {
+    margin-bottom: 20px;
+}
+
+
+
+.programming-skills h4,
+.professional-skills h4 {
+    font-size: 1.2em;
+    color: #3e3e3e;
+    margin-bottom: 10px;
+}
+
+.retangle {
+    width: 300px;         
+    height: 200px;        
+    object-fit: cover;    
+    border: 2px solid #ffffff;
+    margin: 10px;
+}
+
+.circle {
+    width: 150px;         /* 調整寬度 */
+    height: 150px;        /* 調整高度 */
+    border-radius: 50%;   /* 讓圖片成為圓形 */
+    object-fit: cover;    /* 讓圖片等比例裁剪並填滿框架 */
+    border: 2px solid #ffffff;
+}
+
+.skill-item {
+    display: inline-block;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.skill-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+
+
+h4 {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+nav {
+    background-color: #FBC3BC;
+    font-family: Arial;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+nav a:hover {
+    background-color: #F7A399;
+    color: white;
+}
+
+footer {
+    background-color: #F38375;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 15px;
+    background-image: url(image/squale.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+.card.card01 {
+    text-align: center;
+}
+
+.card01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    nav {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    section {
+        padding: 80px 15px;
+    }
+}
+
+@media (max-width:480px) {
+    nav {
+        font-size: 12px;
+        padding: 8px 5px;
+    
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    section {
+        padding: 70px 10px;
+    }
+}
